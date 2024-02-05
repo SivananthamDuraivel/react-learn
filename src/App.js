@@ -17,10 +17,10 @@ export default function App() {
     const[newItem,newSetItem]=useState('')
     const[search,setSearch]=useState('')
 
-    useEffect(()=>{
-      setitem(JSON.parse(localStorage.getItem("todo-list")))
-      console.log("latest",item)
-    },[])
+    // useEffect(()=>{
+    //   setitem(JSON.parse(localStorage.getItem("todo-list")))
+    //   console.log("latest",item)
+    // },[])
 
     // useEffect(()=>{
     //   //async function: to make that this function runs without synced and not made waited for others
