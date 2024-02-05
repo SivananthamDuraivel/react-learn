@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  
+}
+.App{
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 15% 15% 10% 50% 10%;
+  grid-template-columns: 1;
+}
+header{
+  grid-row: 1;
+  height:100%;
+  background-color: magenta;  
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+.addlist
+{
+  background-color: rgb(204, 192, 177);
+  grid-row: 2;
+}
+.container{
+  margin-top: 1rem;
+  margin-left: 30vw;
+}
+.container input{
+  height: 2rem;
+}
+.container button{
+  height: 2rem;
+  margin-left: .5rem;
+  background-color: rgb(89, 191, 89);
+}
+.search{
+  background-color:rgb(204, 192, 177);
+  grid-row:3;
+}
+.search input{
+  margin: auto;
+  margin-left: 40%;
+  height: 2rem;
+  
+}
+
+main
+{
+  padding: 1rem;
+  height: 100%;
+  background-color:rgb(204, 192, 177);
+  grid-row: 4; 
+  text-align: center;
+  font-size: 1.5rem;
+  color: black;
+}
+footer{
+  height: 100%;
+  grid-row: 5;
+  background-color: blueviolet;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+}
+ul {
+  list-style: none;
+  padding: .2rem;
+}
+ul li{
+  margin: auto;
+  width: 60%;
+  background-color: rgb(143, 143, 197);
+  margin-top: .2rem;
+  padding: .1rem;
+}
+
+.item {
+  margin: auto;
+  width: 60%;
+  background-color: orangered;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  transform:scale(2);
+}
+
+#trash {
+  color: black;
+  cursor: pointer;
+}
+
+#trash:hover{
+  color: #c82333;
+}

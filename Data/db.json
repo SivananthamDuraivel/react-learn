@@ -1,0 +1,19 @@
+{
+    "item":[
+        {
+            "id":1,
+            "checked":true,
+            "topic":"ml"
+        },
+        {
+            "id":2,
+            "checked":true,
+            "topic":"iot"
+        },
+        {
+            "id":3,
+            "checked":true,
+            "topic":"cloud"
+        }
+    ]
+}
